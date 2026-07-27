@@ -13,6 +13,10 @@
       "count": 68
     },
     {
+      "file": "problems/obm-2002.json",
+      "count": 46
+    },
+    {
       "file": "problems/obm-2004.json",
       "count": 99
     },
@@ -27,6 +31,9 @@
     },
     {
       "file": "exams/obm-2001.json"
+    },
+    {
+      "file": "exams/obm-2002.json"
     },
     {
       "file": "exams/obm-2004.json"
