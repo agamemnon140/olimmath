@@ -42,5 +42,77 @@
     "obm-2002-f1-n3-q16", "obm-2002-f1-n2-q25", "obm-2002-f1-n3-q18", "obm-2002-f1-n3-q19", "obm-2002-f1-n3-q20",
     "obm-2002-f1-n3-q21", "obm-2002-f1-n3-q22", "obm-2002-f1-n3-q23", "obm-2002-f1-n3-q24", "obm-2002-f1-n3-q25"
   ]
+},
+{
+  "id": "obm-2002-n1-f2",
+  "title": "OBM 2002 — Nível 1, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N1",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2002-f2-n1-q1", "obm-2002-f2-n1-q2", "obm-2002-f2-n1-q3",
+    "obm-2002-f2-n1-q4", "obm-2002-f2-n1-q5", "obm-2002-f2-n1-q6"
+  ]
+},
+{
+  "id": "obm-2002-n2-f2",
+  "title": "OBM 2002 — Nível 2, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N2",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2002-f2-n2-q1", "obm-2002-f2-n2-q2", "obm-2002-f2-n1-q6",
+    "obm-2002-f2-n2-q4", "obm-2002-f2-n2-q5", "obm-2002-f2-n2-q6"
+  ]
+},
+{
+  "id": "obm-2002-n3-f2",
+  "title": "OBM 2002 — Nível 3, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N3",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2002-f2-n2-q5", "obm-2002-f2-n3-q2", "obm-2002-f2-n3-q3",
+    "obm-2002-f2-n3-q4", "obm-2002-f2-n3-q5", "obm-2002-f2-n3-q6"
+  ]
+},
+{
+  "id": "obm-2002-n1-f3",
+  "title": "OBM 2002 — Nível 1, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N1",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2002-f3-n1-q1", "obm-2002-f3-n1-q2", "obm-2002-f3-n1-q3",
+    "obm-2002-f3-n1-q4", "obm-2002-f3-n1-q5"
+  ]
+},
+{
+  "id": "obm-2002-n2-f3",
+  "title": "OBM 2002 — Nível 2, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N2",
+  "officialTimeMinutes": 540,
+  "problemIds": [
+    "obm-2002-f3-n1-q2", "obm-2002-f3-n2-q2", "obm-2002-f3-n2-q3",
+    "obm-2002-f3-n2-q4", "obm-2002-f3-n2-q5", "obm-2002-f3-n2-q6"
+  ]
+},
+{
+  "id": "obm-2002-n3-f3",
+  "title": "OBM 2002 — Nível 3, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2002,
+  "level": "N3",
+  "officialTimeMinutes": 540,
+  "problemIds": [
+    "obm-2002-f3-n3-q1", "obm-2002-f3-n3-q2", "obm-2002-f3-n3-q3",
+    "obm-2002-f3-n3-q4", "obm-2002-f3-n3-q5", "obm-2002-f3-n3-q6"
+  ]
 }
 ]
