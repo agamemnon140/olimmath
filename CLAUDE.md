@@ -62,10 +62,16 @@ Convenções de id: `obm-YYYY-fF-nN-qQ`, `obmep-YYYY-nN-fF-qQ`, `imo-YYYY-pN`, `
 
 Olimpíadas nacionais em PT-BR; internacionais (IMO/ConeSul/Ibero) no inglês original — decisão do usuário, não traduzir.
 
+### Estado atual (27/07/2026)
+
+326 problemas em 6 shards e 30 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15). 210 soluções oficiais e 116 escritas (`ai`). Faltam: provas de Cone Sul/Ibero em `exams/`, shard de problemas autorais e os demais anos da OBM.
+
 ## Expandindo o banco (meta: 1000+ problemas)
 
 1. Crie um novo shard em `public/data/problems/` (nunca gigante: ~50–100 problemas por arquivo) e, se for prova completa, o arquivo correspondente em `exams/`.
-2. Problemas reais: transcreva de PDFs oficiais quando possível (há PDFs da OBM em `raw-pdfs/`, fora do git; script de extração de texto usado anteriormente: pdf-parse via node). Gabarito oficial manda no campo `answer`.
+2. Problemas reais: transcreva de PDFs oficiais quando possível (há PDFs da OBM em `raw-pdfs/`, fora do git). Para extrair o texto, `pdf-parse` v2 — API por classe, `new PDFParse({data: buffer})` + `await parser.getText()` —, instalado fora do repo para não sujar o `package.json`. Gabarito oficial manda no campo `answer`.
+   - Nos PDFs da OBM, a **1ª fase** traz gabarito e "resumo das soluções" (às vezes dos três níveis no mesmo arquivo) e a **2ª fase** traz soluções completas; a **3ª fase** só traz enunciados — nesse caso a solução é escrita à mão e vai com `solutionSource: "ai"`.
+   - A extração de texto embaralha fórmulas em Equation Editor; sempre reconstrua o LaTeX conferindo o resultado contra o gabarito.
 3. `npm run validate` para checar e atualizar o manifest.
 4. Soluções com `solutionSource: "ai"` devem ser conferidas com espírito crítico; prefira `official` sempre que houver gabarito com solução.
 5. Questões idênticas usadas em mais de um nível da mesma prova: um único Problem, referenciado por múltiplas provas.
