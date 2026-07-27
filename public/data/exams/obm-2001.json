@@ -1,0 +1,46 @@
+[
+{
+  "id": "obm-2001-n1-f1",
+  "title": "OBM 2001 — Nível 1, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2001,
+  "level": "N1",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2001-f1-n1-q1", "obm-2001-f1-n1-q2", "obm-2001-f1-n1-q3", "obm-2001-f1-n1-q4", "obm-2001-f1-n1-q5",
+    "obm-2001-f1-n1-q6", "obm-2001-f1-n1-q7", "obm-2001-f1-n1-q8", "obm-2001-f1-n1-q9", "obm-2001-f1-n1-q10",
+    "obm-2001-f1-n1-q11", "obm-2001-f1-n1-q12", "obm-2001-f1-n1-q13", "obm-2001-f1-n1-q14", "obm-2001-f1-n1-q15",
+    "obm-2001-f1-n1-q16", "obm-2001-f1-n1-q17", "obm-2001-f1-n1-q18", "obm-2001-f1-n1-q19", "obm-2001-f1-n1-q20"
+  ]
+},
+{
+  "id": "obm-2001-n2-f1",
+  "title": "OBM 2001 — Nível 2, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2001,
+  "level": "N2",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2001-f1-n1-q4", "obm-2001-f1-n2-q2", "obm-2001-f1-n1-q5", "obm-2001-f1-n1-q6", "obm-2001-f1-n1-q8",
+    "obm-2001-f1-n1-q9", "obm-2001-f1-n1-q11", "obm-2001-f1-n1-q12", "obm-2001-f1-n1-q15", "obm-2001-f1-n2-q11",
+    "obm-2001-f1-n1-q16", "obm-2001-f1-n2-q13", "obm-2001-f1-n1-q17", "obm-2001-f1-n2-q15", "obm-2001-f1-n2-q16",
+    "obm-2001-f1-n2-q17", "obm-2001-f1-n1-q18", "obm-2001-f1-n2-q19", "obm-2001-f1-n2-q20", "obm-2001-f1-n2-q21",
+    "obm-2001-f1-n2-q22", "obm-2001-f1-n1-q20", "obm-2001-f1-n1-q19", "obm-2001-f1-n2-q25"
+  ]
+},
+{
+  "id": "obm-2001-n3-f1",
+  "title": "OBM 2001 — Nível 3, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2001,
+  "level": "N3",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2001-f1-n1-q4", "obm-2001-f1-n2-q2", "obm-2001-f1-n1-q5", "obm-2001-f1-n1-q6", "obm-2001-f1-n1-q8",
+    "obm-2001-f1-n1-q9", "obm-2001-f1-n1-q15", "obm-2001-f1-n2-q11", "obm-2001-f1-n2-q13", "obm-2001-f1-n2-q15",
+    "obm-2001-f1-n2-q22", "obm-2001-f1-n3-q12", "obm-2001-f1-n3-q13", "obm-2001-f1-n1-q19", "obm-2001-f1-n1-q18",
+    "obm-2001-f1-n2-q19", "obm-2001-f1-n2-q20", "obm-2001-f1-n3-q18", "obm-2001-f1-n2-q21", "obm-2001-f1-n3-q20",
+    "obm-2001-f1-n3-q21", "obm-2001-f1-n3-q22", "obm-2001-f1-n3-q23", "obm-2001-f1-n2-q25", "obm-2001-f1-n3-q25"
+  ]
+}
+]

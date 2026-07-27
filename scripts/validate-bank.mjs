@@ -28,10 +28,30 @@ function loadJson(path, label) {
   }
 }
 
+const CURRENCY_PREFIX = /(NCz|Cz|CR|R)$/
+
+// Mesma varredura de src/components/Katex.tsx: um $ precedido de símbolo de
+// moeda (R$, Cz$, ...) só é moeda quando não está fechando um math já aberto.
 function balancedDollars(s) {
-  // Símbolos de moeda (R$, Cz$, NCz$, CR$) não contam como delimitador de math
-  const cleaned = (s || '').replace(/(^|[^$\w\\])(NCz|Cz|CR|R)\$/g, '$1$2')
-  return (cleaned.match(/\$/g) || []).length % 2 === 0
+  const src = s || ''
+  let seen = ''
+  let inMath = false
+  let i = 0
+  while (i < src.length) {
+    if (src[i] !== '$') {
+      seen += src[i]
+      i += 1
+      continue
+    }
+    const isBlock = src[i + 1] === '$'
+    if (!inMath && !isBlock && CURRENCY_PREFIX.test(seen)) {
+      i += 1
+      continue
+    }
+    inMath = !inMath
+    i += isBlock ? 2 : 1
+  }
+  return !inMath
 }
 
 const problemFiles = listJson(problemsDir)

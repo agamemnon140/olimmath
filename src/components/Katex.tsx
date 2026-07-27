@@ -7,8 +7,31 @@ type Segment = { kind: 'text' | 'inline' | 'block'; content: string }
 // protegidos antes de tokenizar para o $ solto não parear com math adiante.
 const CURRENCY_SENTINEL = ''
 
+const CURRENCY_PREFIX = /(NCz|Cz|CR|R)$/
+
+// Um $ precedido de símbolo de moeda só é moeda se não estiver fechando um math
+// já aberto — senão "$M, N, R$" (R como variável) seria tratado como cruzeiro.
 function protectCurrency(src: string): string {
-  return src.replace(/(^|[^$\w\\])(NCz|Cz|CR|R)\$/g, '$1$2' + CURRENCY_SENTINEL)
+  let out = ''
+  let inMath = false
+  let i = 0
+  while (i < src.length) {
+    if (src[i] !== '$') {
+      out += src[i]
+      i += 1
+      continue
+    }
+    const isBlock = src[i + 1] === '$'
+    if (!inMath && !isBlock && CURRENCY_PREFIX.test(out)) {
+      out += CURRENCY_SENTINEL
+      i += 1
+      continue
+    }
+    inMath = !inMath
+    out += isBlock ? '$$' : '$'
+    i += isBlock ? 2 : 1
+  }
+  return out
 }
 
 function restoreCurrency(html: string): string {
