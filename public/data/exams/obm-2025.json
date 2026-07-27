@@ -1,0 +1,14 @@
+[
+{
+  "id": "obm-2025-n1-fu",
+  "title": "OBM 2025 — Nível 1, Fase Única",
+  "olympiad": "OBM",
+  "year": 2025,
+  "level": "N1",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2025-fu-n1-q1", "obm-2025-fu-n1-q2", "obm-2025-fu-n1-q3",
+    "obm-2025-fu-n1-q4", "obm-2025-fu-n1-q5"
+  ]
+}
+]

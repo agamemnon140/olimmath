@@ -21,6 +21,10 @@
       "count": 99
     },
     {
+      "file": "problems/obm-2025.json",
+      "count": 5
+    },
+    {
       "file": "problems/obmep.json",
       "count": 41
     }
@@ -37,6 +41,9 @@
     },
     {
       "file": "exams/obm-2004.json"
+    },
+    {
+      "file": "exams/obm-2025.json"
     },
     {
       "file": "exams/obmep.json"
