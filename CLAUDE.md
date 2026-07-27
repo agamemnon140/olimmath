@@ -64,7 +64,23 @@ Olimpíadas nacionais em PT-BR; internacionais (IMO/ConeSul/Ibero) no inglês or
 
 ### Estado atual (27/07/2026)
 
-326 problemas em 6 shards e 30 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15). 210 soluções oficiais e 116 escritas (`ai`). Faltam: provas de Cone Sul/Ibero em `exams/`, shard de problemas autorais e os demais anos da OBM.
+331 problemas em 7 shards e 31 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15), OBM 2025 N1 (5). 210 soluções oficiais e 121 escritas (`ai`). Repositório publicado em `github.com/agamemnon140/olimmath`.
+
+### Material já baixado e fila de trabalho
+
+`raw-pdfs/` (fora do git) tem os PDFs oficiais da **OBM 2018–2025, níveis 1 a 3** — 24 arquivos, baixados de `obm.org.br`, além dos de 2001/2002/2004. Ordem de trabalho sugerida:
+
+1. **OBMEP** (`obmep.org.br/provas.htm`) — a melhor fonte pendente: traz **provas e soluções oficiais**, o que entra no banco como `official` e reforça as dificuldades 1–3.
+2. **OBM 2018–2021** — ainda têm gabarito oficial publicado no site.
+3. **OBM 2022–2025** — só enunciados; solução autoral.
+4. **IMO 2020–2025** — 36 problemas, em inglês.
+
+Atenção ao esforço real: no formato atual (fase única, 5–6 problemas dissertativos por nível), os problemas de **N2 e N3 têm dificuldade de IMO**. Transcrever o enunciado é rápido; produzir solução correta não é. Não vale despejar solução malfeita no banco — melhor transcrever menos e conferir cada uma.
+
+### Convenções de id por formato
+
+- provas antigas (1ª/2ª/3ª fases, até ~2017): `obm-YYYY-fF-nN-qQ`, `originalLevel` como `N1-F1`;
+- formato atual (fase única, 2018 em diante): `obm-YYYY-fu-nN-qQ`, `originalLevel` como `N1-FU`.
 
 ## Expandindo o banco (meta: 1000+ problemas)
 
