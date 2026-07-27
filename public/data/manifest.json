@@ -1,0 +1,31 @@
+{
+  "problemShards": [
+    {
+      "file": "problems/conesul-ibero.json",
+      "count": 15
+    },
+    {
+      "file": "problems/imo.json",
+      "count": 25
+    },
+    {
+      "file": "problems/obm-2004.json",
+      "count": 99
+    },
+    {
+      "file": "problems/obmep.json",
+      "count": 41
+    }
+  ],
+  "examShards": [
+    {
+      "file": "exams/imo.json"
+    },
+    {
+      "file": "exams/obm-2004.json"
+    },
+    {
+      "file": "exams/obmep.json"
+    }
+  ]
+}

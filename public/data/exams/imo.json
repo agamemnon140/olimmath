@@ -1,0 +1,20 @@
+[
+  {
+    "id": "imo-2019-day1",
+    "title": "IMO 2019 — Day 1",
+    "olympiad": "IMO",
+    "year": 2019,
+    "level": "IMO",
+    "officialTimeMinutes": 270,
+    "problemIds": ["imo-2019-p1", "imo-2019-p2", "imo-2019-p3"]
+  },
+  {
+    "id": "imo-2019-day2",
+    "title": "IMO 2019 — Day 2",
+    "olympiad": "IMO",
+    "year": 2019,
+    "level": "IMO",
+    "officialTimeMinutes": 270,
+    "problemIds": ["imo-2019-p4", "imo-2019-p5", "imo-2019-p6"]
+  }
+]

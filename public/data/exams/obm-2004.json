@@ -1,0 +1,120 @@
+[
+{
+  "id": "obm-2004-n1-f1",
+  "title": "OBM 2004 — Nível 1, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N1",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2004-f1-n1-q1", "obm-2004-f1-n1-q2", "obm-2004-f1-n1-q3", "obm-2004-f1-n1-q4", "obm-2004-f1-n1-q5",
+    "obm-2004-f1-n1-q6", "obm-2004-f1-n1-q7", "obm-2004-f1-n1-q8", "obm-2004-f1-n1-q9", "obm-2004-f1-n1-q10",
+    "obm-2004-f1-n1-q11", "obm-2004-f1-n1-q12", "obm-2004-f1-n1-q13", "obm-2004-f1-n1-q14", "obm-2004-f1-n1-q15",
+    "obm-2004-f1-n1-q16", "obm-2004-f1-n1-q17", "obm-2004-f1-n1-q18", "obm-2004-f1-n1-q19", "obm-2004-f1-n1-q20",
+    "obm-2004-f1-n1-q21", "obm-2004-f1-n1-q22", "obm-2004-f1-n1-q23", "obm-2004-f1-n1-q24", "obm-2004-f1-n1-q25"
+  ]
+},
+{
+  "id": "obm-2004-n2-f1",
+  "title": "OBM 2004 — Nível 2, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N2",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2004-f1-n1-q3", "obm-2004-f1-n2-q2", "obm-2004-f1-n1-q25", "obm-2004-f1-n1-q23", "obm-2004-f1-n1-q14",
+    "obm-2004-f1-n1-q16", "obm-2004-f1-n2-q7", "obm-2004-f1-n2-q8", "obm-2004-f1-n1-q19", "obm-2004-f1-n2-q10",
+    "obm-2004-f1-n2-q11", "obm-2004-f1-n2-q12", "obm-2004-f1-n2-q13", "obm-2004-f1-n2-q14", "obm-2004-f1-n2-q15",
+    "obm-2004-f1-n1-q10", "obm-2004-f1-n2-q17", "obm-2004-f1-n1-q18", "obm-2004-f1-n2-q19", "obm-2004-f1-n1-q20",
+    "obm-2004-f1-n2-q21", "obm-2004-f1-n2-q22", "obm-2004-f1-n2-q23", "obm-2004-f1-n1-q13", "obm-2004-f1-n2-q25"
+  ]
+},
+{
+  "id": "obm-2004-n3-f1",
+  "title": "OBM 2004 — Nível 3, 1ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N3",
+  "officialTimeMinutes": 180,
+  "problemIds": [
+    "obm-2004-f1-n3-q1", "obm-2004-f1-n3-q2", "obm-2004-f1-n3-q3", "obm-2004-f1-n2-q25", "obm-2004-f1-n3-q5",
+    "obm-2004-f1-n3-q6", "obm-2004-f1-n3-q7", "obm-2004-f1-n3-q8", "obm-2004-f1-n3-q9", "obm-2004-f1-n3-q10",
+    "obm-2004-f1-n3-q11", "obm-2004-f1-n2-q10", "obm-2004-f1-n2-q12", "obm-2004-f1-n3-q14", "obm-2004-f1-n3-q15",
+    "obm-2004-f1-n3-q16", "obm-2004-f1-n3-q17", "obm-2004-f1-n3-q18", "obm-2004-f1-n3-q19", "obm-2004-f1-n1-q23",
+    "obm-2004-f1-n3-q21", "obm-2004-f1-n1-q20", "obm-2004-f1-n3-q23", "obm-2004-f1-n3-q24", "obm-2004-f1-n1-q21"
+  ]
+},
+{
+  "id": "obm-2004-n1-f2",
+  "title": "OBM 2004 — Nível 1, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N1",
+  "officialTimeMinutes": 270,
+  "description": "Parte A (10 problemas de resposta curta) e Parte B (3 problemas dissertativos).",
+  "problemIds": [
+    "obm-2004-f2-n1-q1", "obm-2004-f2-n1-q2", "obm-2004-f2-n1-q3", "obm-2004-f2-n1-q4", "obm-2004-f2-n1-q5",
+    "obm-2004-f2-n1-q6", "obm-2004-f2-n1-q7", "obm-2004-f2-n1-q8", "obm-2004-f2-n1-q9", "obm-2004-f2-n1-q10",
+    "obm-2004-f2-n1-q11", "obm-2004-f2-n1-q12", "obm-2004-f2-n1-q13"
+  ]
+},
+{
+  "id": "obm-2004-n2-f2",
+  "title": "OBM 2004 — Nível 2, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N2",
+  "officialTimeMinutes": 270,
+  "description": "Parte A (5 problemas de resposta curta) e Parte B (4 problemas dissertativos).",
+  "problemIds": [
+    "obm-2004-f2-n1-q6", "obm-2004-f2-n1-q8", "obm-2004-f2-n2-q3", "obm-2004-f2-n1-q11", "obm-2004-f2-n2-q5",
+    "obm-2004-f2-n1-q13", "obm-2004-f2-n2-q7", "obm-2004-f2-n2-q8", "obm-2004-f2-n2-q9"
+  ]
+},
+{
+  "id": "obm-2004-n3-f2",
+  "title": "OBM 2004 — Nível 3, 2ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N3",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2004-f2-n3-q1", "obm-2004-f2-n3-q2", "obm-2004-f2-n3-q3", "obm-2004-f2-n3-q4", "obm-2004-f2-n3-q5", "obm-2004-f2-n3-q6"
+  ]
+},
+{
+  "id": "obm-2004-n1-f3",
+  "title": "OBM 2004 — Nível 1, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N1",
+  "officialTimeMinutes": 270,
+  "problemIds": [
+    "obm-2004-f3-n1-q1", "obm-2004-f3-n1-q2", "obm-2004-f3-n1-q3", "obm-2004-f3-n1-q4", "obm-2004-f3-n1-q5"
+  ]
+},
+{
+  "id": "obm-2004-n2-f3",
+  "title": "OBM 2004 — Nível 2, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N2",
+  "officialTimeMinutes": 540,
+  "description": "Prova aplicada em dois dias: problemas 1–3 no primeiro dia e 4–6 no segundo dia (4h30 por dia; o tempo indicado soma os dois dias).",
+  "problemIds": [
+    "obm-2004-f3-n2-q1", "obm-2004-f3-n2-q2", "obm-2004-f3-n2-q3", "obm-2004-f3-n2-q4", "obm-2004-f3-n2-q5", "obm-2004-f3-n2-q6"
+  ]
+},
+{
+  "id": "obm-2004-n3-f3",
+  "title": "OBM 2004 — Nível 3, 3ª Fase",
+  "olympiad": "OBM",
+  "year": 2004,
+  "level": "N3",
+  "officialTimeMinutes": 540,
+  "description": "Prova aplicada em dois dias: problemas 1–3 no primeiro dia e 4–6 no segundo dia (4h30 por dia; o tempo indicado soma os dois dias).",
+  "problemIds": [
+    "obm-2004-f3-n3-q1", "obm-2004-f3-n3-q2", "obm-2004-f3-n3-q3", "obm-2004-f3-n2-q6", "obm-2004-f3-n3-q5", "obm-2004-f3-n3-q6"
+  ]
+}
+]
