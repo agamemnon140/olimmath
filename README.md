@@ -2,6 +2,10 @@
 
 Treino pessoal para olimpíadas de matemática — OBMEP, OBM, IMO, Cone Sul e Ibero-americana.
 
+**▶ [Acessar o app](https://agamemnon140.github.io/olimmath/)** — publicado no GitHub Pages a cada push na `main`.
+
+No iPhone, abra o link no Safari e use *Compartilhar → Adicionar à Tela de Início*: o app abre em tela cheia, com ícone próprio. O progresso fica salvo no navegador do aparelho.
+
 ## Recursos
 
 - **Banco de problemas** com provas reais transcritas dos PDFs oficiais (OBM 2001/2002/2004 completas) e problemas autorais gerados por IA, com filtro para habilitar/desabilitar cada fonte.
