@@ -1,0 +1,18 @@
+[
+  {
+    "id": "obm-2021-n1-fu",
+    "title": "OBM 2021 — Nível 1, 1º dia",
+    "olympiad": "OBM",
+    "year": 2021,
+    "level": "N1",
+    "officialTimeMinutes": 270,
+    "description": "Em 2021 a prova do Nível 1 foi aplicada em dois dias; este é o primeiro dia, o único publicado em PDF pela OBM.",
+    "problemIds": [
+      "obm-2021-fu-n1-q1",
+      "obm-2021-fu-n1-q2",
+      "obm-2021-fu-n1-q3",
+      "obm-2021-fu-n1-q4",
+      "obm-2021-fu-n1-q5"
+    ]
+  }
+]
