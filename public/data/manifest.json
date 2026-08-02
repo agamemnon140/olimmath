@@ -45,6 +45,10 @@
       "count": 5
     },
     {
+      "file": "problems/obm-2024.json",
+      "count": 5
+    },
+    {
       "file": "problems/obm-2025.json",
       "count": 5
     },
@@ -83,6 +87,9 @@
     },
     {
       "file": "exams/obm-2023.json"
+    },
+    {
+      "file": "exams/obm-2024.json"
     },
     {
       "file": "exams/obm-2025.json"
