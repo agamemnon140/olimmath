@@ -64,17 +64,29 @@ Olimpíadas nacionais em PT-BR; internacionais (IMO/ConeSul/Ibero) no inglês or
 
 ### Estado atual (02/08/2026)
 
-336 problemas em 8 shards e 32 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15), OBM 2025 N1 (5), OBM 2018 N1 (5). 210 soluções oficiais e 126 escritas (`ai`). Repositório publicado em `github.com/agamemnon140/olimmath`.
+366 problemas em 14 shards e 38 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15) e **o Nível 1 completo de 2018 a 2025** (7 provas × 5 problemas = 35). 210 soluções oficiais e 156 escritas (`ai`).
+
+Distribuição por dificuldade: 28 / 105 / 113 / 89 / 31 (níveis 1 a 5). Por tema: teoria dos números 100, combinatória 92, álgebra 87, geometria 87. Repositório publicado em `github.com/agamemnon140/olimmath`.
 
 ### Material já baixado e fila de trabalho
 
 `raw-pdfs/` (fora do git) tem os PDFs oficiais da **OBM 2018–2025, níveis 1 a 3** — 24 arquivos, baixados de `obm.org.br`, além dos de 2001/2002/2004. Ordem de trabalho sugerida:
 
+O **Nível 1 de 2018 a 2025 está fechado**. Falta:
+
 1. **OBMEP** (`obmep.org.br/provas.htm`) — a melhor fonte pendente: traz **provas e soluções oficiais**, o que entra no banco como `official` e reforça as dificuldades 1–3.
-2. **OBM 2018–2025** — em andamento, um nível por vez (2018 N1 e 2025 N1 já feitos). Atenção: **a OBM não publica gabarito nem solução dos níveis 1–3 de 2018 em diante** (conferido em `obm.org.br/como-se-preparar/provas-e-gabaritos/` — só o nível Universitário tem gabarito). Toda solução daqui é autoral (`ai`) e precisa ser conferida; quando der, verificar as respostas numéricas com um script antes de commitar.
+2. **OBM 2018–2025, níveis 2 e 3** — PDFs já em `raw-pdfs/`.
 3. **IMO 2020–2025** — 36 problemas, em inglês.
 
+Atenção: **a OBM não publica gabarito nem solução dos níveis 1–3 de 2018 em diante** (conferido em `obm.org.br/como-se-preparar/provas-e-gabaritos/` — só o nível Universitário tem gabarito). Toda solução daqui é autoral (`ai`).
+
 Atenção ao esforço real: no formato atual (fase única, 5–6 problemas dissertativos por nível), os problemas de **N2 e N3 têm dificuldade de IMO**. Transcrever o enunciado é rápido; produzir solução correta não é. Não vale despejar solução malfeita no banco — melhor transcrever menos e conferir cada uma.
+
+### Fluxo que funcionou para as provas modernas
+
+1. **Renderizar as páginas do PDF em PNG e olhar as figuras.** `pdf-parse` embaralha fórmulas e ignora os desenhos; várias questões (tabuleiros, octógonos, o dado de 2020) são incompreensíveis sem a imagem. Instale `pdfjs-dist` + `@napi-rs/canvas` fora do repo e renderize com `page.render({canvasContext, viewport, canvas})`.
+2. **Resolver e conferir cada resposta com um script de força bruta** antes de escrever a solução — simular o dado rolando, contar as coberturas do tabuleiro, enumerar as permutações. Isso já pegou erro de transcrição e erro de solução mais de uma vez, e de quebra valida a leitura da figura (em 2023, o item que o enunciado diz ter solução única só tem solução única se as peças estiverem nas posições transcritas).
+3. **Recriar as figuras em SVG** no campo `figureSvg`, e conferir renderizando o SVG de volta para PNG. Cuidado com: elementos que estouram o `viewBox` e subscritos Unicode (use `<tspan font-size="9" dy="3">`).
 
 ### Convenções de id por formato
 
