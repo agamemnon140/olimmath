@@ -37,6 +37,10 @@
       "count": 5
     },
     {
+      "file": "problems/obm-2022.json",
+      "count": 5
+    },
+    {
       "file": "problems/obm-2025.json",
       "count": 5
     },
@@ -69,6 +73,9 @@
     },
     {
       "file": "exams/obm-2021.json"
+    },
+    {
+      "file": "exams/obm-2022.json"
     },
     {
       "file": "exams/obm-2025.json"
