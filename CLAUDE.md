@@ -62,18 +62,17 @@ Convenções de id: `obm-YYYY-fF-nN-qQ`, `obmep-YYYY-nN-fF-qQ`, `imo-YYYY-pN`, `
 
 Olimpíadas nacionais em PT-BR; internacionais (IMO/ConeSul/Ibero) no inglês original — decisão do usuário, não traduzir.
 
-### Estado atual (27/07/2026)
+### Estado atual (02/08/2026)
 
-331 problemas em 7 shards e 31 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15), OBM 2025 N1 (5). 210 soluções oficiais e 121 escritas (`ai`). Repositório publicado em `github.com/agamemnon140/olimmath`.
+336 problemas em 8 shards e 32 provas: OBM 2004 (99), OBM 2002 (78), OBM 2001 (68), OBMEP (41), IMO (25), Cone Sul/Ibero (15), OBM 2025 N1 (5), OBM 2018 N1 (5). 210 soluções oficiais e 126 escritas (`ai`). Repositório publicado em `github.com/agamemnon140/olimmath`.
 
 ### Material já baixado e fila de trabalho
 
 `raw-pdfs/` (fora do git) tem os PDFs oficiais da **OBM 2018–2025, níveis 1 a 3** — 24 arquivos, baixados de `obm.org.br`, além dos de 2001/2002/2004. Ordem de trabalho sugerida:
 
 1. **OBMEP** (`obmep.org.br/provas.htm`) — a melhor fonte pendente: traz **provas e soluções oficiais**, o que entra no banco como `official` e reforça as dificuldades 1–3.
-2. **OBM 2018–2021** — ainda têm gabarito oficial publicado no site.
-3. **OBM 2022–2025** — só enunciados; solução autoral.
-4. **IMO 2020–2025** — 36 problemas, em inglês.
+2. **OBM 2018–2025** — em andamento, um nível por vez (2018 N1 e 2025 N1 já feitos). Atenção: **a OBM não publica gabarito nem solução dos níveis 1–3 de 2018 em diante** (conferido em `obm.org.br/como-se-preparar/provas-e-gabaritos/` — só o nível Universitário tem gabarito). Toda solução daqui é autoral (`ai`) e precisa ser conferida; quando der, verificar as respostas numéricas com um script antes de commitar.
+3. **IMO 2020–2025** — 36 problemas, em inglês.
 
 Atenção ao esforço real: no formato atual (fase única, 5–6 problemas dissertativos por nível), os problemas de **N2 e N3 têm dificuldade de IMO**. Transcrever o enunciado é rápido; produzir solução correta não é. Não vale despejar solução malfeita no banco — melhor transcrever menos e conferir cada uma.
 
